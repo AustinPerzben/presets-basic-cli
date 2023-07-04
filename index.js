@@ -28,8 +28,7 @@ const commands = {
 
         fs.mkdirSync(projectName);
 
-        const templatesUrl = ''; // Replace with your GitHub URL
-
+        const templatesUrl = 'https://raw.githubusercontent.com/AustinPerzben/presets-basic-cli/main/templates';
         const files = ['index.html', 'style.css'];
         let includeScript = false;
 
