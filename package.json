@@ -1,0 +1,22 @@
+{
+  "name": "presets-basic",
+  "version": "1.0.0",
+  "description": "A CLI tool for quickly setting up small web dev projects with useful preset templates",
+  "main": "index.js",
+  "bin": {
+    "presets-basic": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "project-setup",
+    "templates",
+    "nodejs",
+    "automation"
+  ],
+  "homepage": "https://chancellorofwonder.dev/presets-basic",
+  "author": "Agustin Perez del Castillo",
+  "license": "ISC"
+}
