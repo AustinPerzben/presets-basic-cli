@@ -1,3 +1,6 @@
+/* This is strongly based on Andy Bell's Modern CSS Reset */
+/* https://andy-bell.co.uk/a-modern-css-reset/ */
+
 /* Box sizing rules */
 *,
 *::before,
@@ -33,6 +36,8 @@ html:focus-within {
 /* Set core body defaults */
 body {
     min-height: 100vh;
+    min-height: 100dvh;
+    /* for mobile browsers, will default to prev line if unsupported */
     text-rendering: optimizeSpeed;
     line-height: 1.5;
 }
@@ -73,6 +78,6 @@ select {
     }
 }
 
-/***************************/
-/*     RESET ENDS HERE     */
-/***************************/
+/****************************/
+/*     CUSTOM CODE HERE     */
+/****************************/
